@@ -1,4 +1,4 @@
-Version 2 of Switch Control by Christian Schulz begins here.
+Version 3 of Switch Control by Christian Schulz begins here.
 
 Include version 10 of Scheduled Activities by John Clemens.
 
