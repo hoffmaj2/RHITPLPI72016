@@ -915,22 +915,92 @@
     <key>130</key><dict>
         <key>Filename</key><string>C:\Users\schulzcc\Documents\Inform\Extensions\christian schulz\switch control.i7x</string>
         <key>Line</key><integer>1</integer>
-        <key>Title</key><string>Version 1 of Switch Control by Christian Schulz begins here</string>
+        <key>Title</key><string>Version 2 of Switch Control by Christian Schulz begins here</string>
         <key>Level</key><integer>0</integer>
         <key>Indentation</key><integer>0</integer>
     </dict>
     <key>131</key><dict>
         <key>Filename</key><string>C:\Users\schulzcc\Documents\Inform\Extensions\christian schulz\switch control.i7x</string>
-        <key>Line</key><integer>3</integer>
+        <key>Line</key><integer>5</integer>
         <key>Title</key><string>Volume 1 - Simple control of things</string>
         <key>Level</key><integer>1</integer>
         <key>Indentation</key><integer>1</integer>
     </dict>
     <key>132</key><dict>
         <key>Filename</key><string>C:\Users\schulzcc\Documents\Inform\Extensions\christian schulz\switch control.i7x</string>
-        <key>Line</key><integer>24</integer>
-        <key>Title</key><string>Volume 2 - Circuitry</string>
+        <key>Line</key><integer>26</integer>
+        <key>Title</key><string>Volume 2 - Gates</string>
         <key>Level</key><integer>1</integer>
+        <key>Indentation</key><integer>1</integer>
+    </dict>
+    <key>133</key><dict>
+        <key>Filename</key><string>C:\Users\schulzcc\Documents\Inform\Extensions\christian schulz\switch control.i7x</string>
+        <key>Line</key><integer>70</integer>
+        <key>Title</key><string>Volume 3 - Relays</string>
+        <key>Level</key><integer>1</integer>
+        <key>Indentation</key><integer>1</integer>
+    </dict>
+    <key>134</key><dict>
+        <key>Filename</key><string>C:\Users\schulzcc\Documents\Inform\Extensions\john clemens\scheduled activities.i7x</string>
+        <key>Line</key><integer>1</integer>
+        <key>Title</key><string>Version 10 of Scheduled Activities by John Clemens begins here</string>
+        <key>Level</key><integer>0</integer>
+        <key>Indentation</key><integer>0</integer>
+    </dict>
+    <key>135</key><dict>
+        <key>Filename</key><string>C:\Users\schulzcc\Documents\Inform\Extensions\john clemens\scheduled activities.i7x</string>
+        <key>Line</key><integer>61</integer>
+        <key>Title</key><string>Section 1 - Scheduling Rule</string>
+        <key>Level</key><integer>5</integer>
+        <key>Indentation</key><integer>1</integer>
+    </dict>
+    <key>136</key><dict>
+        <key>Filename</key><string>C:\Users\schulzcc\Documents\Inform\Extensions\john clemens\scheduled activities.i7x</string>
+        <key>Line</key><integer>88</integer>
+        <key>Title</key><string>Section 2 - Utility functions - unindexed</string>
+        <key>Level</key><integer>5</integer>
+        <key>Indentation</key><integer>1</integer>
+    </dict>
+    <key>137</key><dict>
+        <key>Filename</key><string>C:\Users\schulzcc\Documents\Inform\Extensions\john clemens\scheduled activities.i7x</string>
+        <key>Line</key><integer>124</integer>
+        <key>Title</key><string>Section 3 - Scheduling activities</string>
+        <key>Level</key><integer>5</integer>
+        <key>Indentation</key><integer>1</integer>
+    </dict>
+    <key>138</key><dict>
+        <key>Filename</key><string>C:\Users\schulzcc\Documents\Inform\Extensions\john clemens\scheduled activities.i7x</string>
+        <key>Line</key><integer>165</integer>
+        <key>Title</key><string>Section 4 - Alternate scheduling phrases - unindexed</string>
+        <key>Level</key><integer>5</integer>
+        <key>Indentation</key><integer>1</integer>
+    </dict>
+    <key>139</key><dict>
+        <key>Filename</key><string>C:\Users\schulzcc\Documents\Inform\Extensions\john clemens\scheduled activities.i7x</string>
+        <key>Line</key><integer>204</integer>
+        <key>Title</key><string>Section 5 - Canceling activities</string>
+        <key>Level</key><integer>5</integer>
+        <key>Indentation</key><integer>1</integer>
+    </dict>
+    <key>140</key><dict>
+        <key>Filename</key><string>C:\Users\schulzcc\Documents\Inform\Extensions\john clemens\scheduled activities.i7x</string>
+        <key>Line</key><integer>246</integer>
+        <key>Title</key><string>Section 6 - Checking activities</string>
+        <key>Level</key><integer>5</integer>
+        <key>Indentation</key><integer>1</integer>
+    </dict>
+    <key>141</key><dict>
+        <key>Filename</key><string>C:\Users\schulzcc\Documents\Inform\Extensions\john clemens\scheduled activities.i7x</string>
+        <key>Line</key><integer>325</integer>
+        <key>Title</key><string>Section 7 - Reporting activities</string>
+        <key>Level</key><integer>5</integer>
+        <key>Indentation</key><integer>1</integer>
+    </dict>
+    <key>142</key><dict>
+        <key>Filename</key><string>C:\Users\schulzcc\Documents\Inform\Extensions\john clemens\scheduled activities.i7x</string>
+        <key>Line</key><integer>339</integer>
+        <key>Title</key><string>Section 8 - Phrases for descriptions</string>
+        <key>Level</key><integer>5</integer>
         <key>Indentation</key><integer>1</integer>
     </dict>
 </dict></plist>

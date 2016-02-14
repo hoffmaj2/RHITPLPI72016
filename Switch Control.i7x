@@ -1,5 +1,7 @@
 Version 2 of Switch Control by Christian Schulz begins here.
 
+Include version 10 of Scheduled Activities by John Clemens.
+
 Volume 1 - Simple control of things
 
 An effect is a kind of backdrop.
@@ -64,5 +66,20 @@ Instead of turning on a xor-gate (called the component) with something:
 	increment the counter of the component;
 	if the counter of the component is even, try silently switching off the component;
 	if the counter of the component is odd, try silently switching on the component.
+	
+Volume 3 - Relays
+
+A relay is a kind of gate. Every relay has a number called the delay. The delay of a relay is usually 1.
+
+Instead of turning off a relay (called the component) with something, schedule depleting for the component in (delay of the component) turns.
+Instead of turning on a relay (called the component) with something, schedule saturating for the component in (delay of the component) turns.
+
+Depleting something is an activity.
+Rule for depleting something (called the component):
+	try silently switching off the component.
+	
+Saturating something is an activity.
+Rule for saturating something (called the component):
+	try silently switching on the component.
 
 Switch Control ends here.
