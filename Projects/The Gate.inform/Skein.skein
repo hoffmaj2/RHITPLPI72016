@@ -1,0 +1,661 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Skein rootNode="node-0x006FFF60" xmlns="http://www.logicalshift.org.uk/IF/Skein">
+  <generator>Inform 7 for Windows</generator>
+  <activeNode nodeId="node-0x006FFF60"/>
+  <item nodeId="node-0x006FFF60">
+    <command xml:space="preserve">- start -</command>
+    <result xml:space="preserve">The Gate&#x000A;An Interactive Fiction by Christian Schulz&#x000A;Release 1 / Serial number 160217 / Inform 7 build 6L38 (I6/v6.33 lib 6/12N) SD&#x000A;&#x000A;Upper Hall&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">NO</temporary>
+    <children>
+      <child nodeId="node-0x0311B060"/>
+      <child nodeId="node-0x0311B290"/>
+      <child nodeId="node-0x03197060"/>
+    </children>
+  </item>
+  <item nodeId="node-0x0311B060">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">*** The End ***&#x000A;&#x000A;&#x000A;&#x000A;&#x000A;Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+  </item>
+  <item nodeId="node-0x0311B290">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">Upper Landing&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x0311B220"/>
+      <child nodeId="node-0x0311B6F0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x0311B220">
+    <command xml:space="preserve">d</command>
+    <result xml:space="preserve">Lower Hall (South)&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x0311B1B0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x0311B1B0">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">Lower Hall (North)&#x000A;You can see an office door here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x0311AF80"/>
+      <child nodeId="node-0x031575C8"/>
+    </children>
+  </item>
+  <item nodeId="node-0x0311AF80">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">(first opening the office door)&#x000A;It isn't something you can open.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x0311AFF0"/>
+      <child nodeId="node-0x0311B450"/>
+    </children>
+  </item>
+  <item nodeId="node-0x0311AFF0">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">(first opening the office door)&#x000A;It isn't something you can open.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x0311B140"/>
+    </children>
+  </item>
+  <item nodeId="node-0x0311B140">
+    <command xml:space="preserve">kick door</command>
+    <result xml:space="preserve">You forcefully push your foot into the office door, and it swings open with a loud BANG.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x0311B300"/>
+    </children>
+  </item>
+  <item nodeId="node-0x0311B300">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">Office&#x000A;You can see an office door here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+  </item>
+  <item nodeId="node-0x0311B450">
+    <command xml:space="preserve">kick door</command>
+    <result xml:space="preserve">(the office door)&#x000A;You forcefully push your foot into the office door, and it swings open with a loud BANG.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x0311B4C0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x0311B4C0">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">Office&#x000A;You can see an office door, an office elevator door and a call button here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x0311B990"/>
+    </children>
+  </item>
+  <item nodeId="node-0x0311B990">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">(first opening the office elevator door)&#x000A;It isn't something you can open.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x0311BA00"/>
+      <child nodeId="node-0x03157478"/>
+    </children>
+  </item>
+  <item nodeId="node-0x0311BA00">
+    <command xml:space="preserve">turn on button</command>
+    <result xml:space="preserve">You switch the office call button on.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x0311BE60"/>
+    </children>
+  </item>
+  <item nodeId="node-0x0311BE60">
+    <command xml:space="preserve">l</command>
+    <result xml:space="preserve">Office&#x000A;You can see an office door, an elevator door and an office call button here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x0311BBC0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x0311BBC0">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">Elevator&#x000A;You can see an elevator door here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x0311BC30"/>
+    </children>
+  </item>
+  <item nodeId="node-0x0311BC30">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">Office&#x000A;You can see an elevator door, an office door and an office call button here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x0311BCA0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x0311BCA0">
+    <command xml:space="preserve">switch button</command>
+    <result xml:space="preserve">You switch the office call button off.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x0311BD80"/>
+    </children>
+  </item>
+  <item nodeId="node-0x0311BD80">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">(first opening the elevator door)&#x000A;It isn't something you can open.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x0311BDF0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x0311BDF0">
+    <command xml:space="preserve">switch button</command>
+    <result xml:space="preserve">You switch the office call button on.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x0311BAE0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x0311BAE0">
+    <command xml:space="preserve">switch button</command>
+    <result xml:space="preserve">You switch the office call button off.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x0311B920"/>
+    </children>
+  </item>
+  <item nodeId="node-0x0311B920">
+    <command xml:space="preserve">switch button</command>
+    <result xml:space="preserve">You switch the office call button on.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x0311B680"/>
+    </children>
+  </item>
+  <item nodeId="node-0x0311B680">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">Elevator&#x000A;You can see an elevator door here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+  </item>
+  <item nodeId="node-0x03157478">
+    <command xml:space="preserve">turn on call button</command>
+    <result xml:space="preserve">You switch the call button on.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x03157398"/>
+    </children>
+  </item>
+  <item nodeId="node-0x03157398">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">Elevator&#x000A;You can see an office elevator door, an exit button, a basement button and a station button here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x031571D8"/>
+    </children>
+  </item>
+  <item nodeId="node-0x031571D8">
+    <command xml:space="preserve">turn on basement button</command>
+    <result xml:space="preserve">&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x03157638"/>
+    </children>
+  </item>
+  <item nodeId="node-0x03157638">
+    <command xml:space="preserve">l</command>
+    <result xml:space="preserve">Elevator&#x000A;You can see an office elevator door, an exit button, a basement button and a station button here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x031576A8"/>
+    </children>
+  </item>
+  <item nodeId="node-0x031576A8">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">Basement&#x000A;You can see a call button and a basement elevator door here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x03157718"/>
+    </children>
+  </item>
+  <item nodeId="node-0x03157718">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">Elevator&#x000A;You can see an office elevator door, an exit button, a basement button and a station button here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x03157788"/>
+    </children>
+  </item>
+  <item nodeId="node-0x03157788">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">Basement&#x000A;You can see a call button and a basement elevator door here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x031577F8"/>
+    </children>
+  </item>
+  <item nodeId="node-0x031577F8">
+    <command xml:space="preserve">turn off call button</command>
+    <result xml:space="preserve">You switch the call button off.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x03190318"/>
+    </children>
+  </item>
+  <item nodeId="node-0x03190318">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">(first opening the basement elevator door)&#x000A;It isn't something you can open.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x03190388"/>
+    </children>
+  </item>
+  <item nodeId="node-0x03190388">
+    <command xml:space="preserve">turn on basement button</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x031903F8"/>
+    </children>
+  </item>
+  <item nodeId="node-0x031903F8">
+    <command xml:space="preserve">turn on call button</command>
+    <result xml:space="preserve">You switch the call button on.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x03190468"/>
+    </children>
+  </item>
+  <item nodeId="node-0x03190468">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">Elevator&#x000A;You can see an office elevator door, an exit button, a basement button and a station button here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x031904D8"/>
+    </children>
+  </item>
+  <item nodeId="node-0x031904D8">
+    <command xml:space="preserve">turn off basement button</command>
+    <result xml:space="preserve">You switch the basement button off.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x03190548"/>
+    </children>
+  </item>
+  <item nodeId="node-0x03190548">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">Basement&#x000A;You can see a call button and a basement elevator door here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+  </item>
+  <item nodeId="node-0x031575C8">
+    <command xml:space="preserve">kick door</command>
+    <result xml:space="preserve">(the office door)&#x000A;You forcefully push your foot into the office door, and it swings open with a loud BANG.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x03157558"/>
+    </children>
+  </item>
+  <item nodeId="node-0x03157558">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">Office&#x000A;You can see an office door, an office elevator door and a call button here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x031574E8"/>
+    </children>
+  </item>
+  <item nodeId="node-0x031574E8">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">(first opening the office elevator door)&#x000A;It isn't something you can open.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x031905B8"/>
+    </children>
+  </item>
+  <item nodeId="node-0x031905B8">
+    <command xml:space="preserve">turn on call</command>
+    <result xml:space="preserve">You switch the call button on.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x03190628"/>
+    </children>
+  </item>
+  <item nodeId="node-0x03190628">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">Elevator&#x000A;You can see an office elevator door, an exit button, a basement button and a station button here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x03196C00"/>
+    </children>
+  </item>
+  <item nodeId="node-0x03196C00">
+    <command xml:space="preserve">turn on basement</command>
+    <result xml:space="preserve">&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x03196C70"/>
+    </children>
+  </item>
+  <item nodeId="node-0x03196C70">
+    <command xml:space="preserve">turn off basement</command>
+    <result xml:space="preserve">You switch the basement button off.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x03196CE0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x03196CE0">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x03196D50"/>
+    </children>
+  </item>
+  <item nodeId="node-0x03196D50">
+    <command xml:space="preserve">l</command>
+    <result xml:space="preserve">Elevator&#x000A;You can see an office elevator door, an exit button, a basement button and a station button here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x03196DC0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x03196DC0">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+  </item>
+  <item nodeId="node-0x0311B6F0">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">You can't go that way.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x0311B760"/>
+    </children>
+  </item>
+  <item nodeId="node-0x0311B760">
+    <command xml:space="preserve">d</command>
+    <result xml:space="preserve">Lower Hall (South)&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x0311B7D0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x0311B7D0">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">You can't go that way.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x0311B5A0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x0311B5A0">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">Lower Hall (North)&#x000A;You can see an office door here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x0311B530"/>
+    </children>
+  </item>
+  <item nodeId="node-0x0311B530">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">(first opening the office door)&#x000A;It isn't something you can open.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x0311B8B0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x0311B8B0">
+    <command xml:space="preserve">kick door</command>
+    <result xml:space="preserve">(the office door)&#x000A;You forcefully push your foot into the office door, and it swings open with a loud BANG.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x0311B370"/>
+    </children>
+  </item>
+  <item nodeId="node-0x0311B370">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">Office&#x000A;You can see an office door, an office elevator door and a call button here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x0311B840"/>
+    </children>
+  </item>
+  <item nodeId="node-0x0311B840">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">(first opening the office elevator door)&#x000A;It isn't something you can open.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x03157088"/>
+    </children>
+  </item>
+  <item nodeId="node-0x03157088">
+    <command xml:space="preserve">push button</command>
+    <result xml:space="preserve">Nothing obvious happens.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x031570F8"/>
+    </children>
+  </item>
+  <item nodeId="node-0x031570F8">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">(first opening the office elevator door)&#x000A;It isn't something you can open.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x03157168"/>
+    </children>
+  </item>
+  <item nodeId="node-0x03157168">
+    <command xml:space="preserve">turn on button</command>
+    <result xml:space="preserve">You switch the call button on.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x03157248"/>
+    </children>
+  </item>
+  <item nodeId="node-0x03157248">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">Elevator&#x000A;You can see an office elevator door, an exit button, a basement button and a station button here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x031572B8"/>
+    </children>
+  </item>
+  <item nodeId="node-0x031572B8">
+    <command xml:space="preserve">turn on basement button</command>
+    <result xml:space="preserve">*** Run-time problem P2: Tried to change the south exit of the Elevator, but it led to a door, not a room.&#x000A;&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+  </item>
+  <item nodeId="node-0x03197060">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x03196FF0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x03196FF0">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+  </item>
+</Skein>
