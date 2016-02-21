@@ -2,26 +2,18 @@
 
 Include Switch Control by Christian Schulz.
 
-The Terrifying Basement is a room.
+The Terrifying Basement is a dark room.
 
-The red switch is a switched on device in the Terrifying Basement. It is fixed in place.
+The red switch is a switched off device in the Terrifying Basement. It is fixed in place.
 The blue switch is a switched off device in the Terrifying Basement. It is fixed in place.
 
 The basement light is an effect. It is everywhere.
 Instead of turning off the basement light with something: now the Terrifying Basement is dark.
 Instead of turning on the basement light with something: now the Terrifying Basement is lighted.
 
-The N-gate is a not-gate. It is everywhere.
+The B-cell is a bit-cell. It is everywhere. The red switch sets the B-cell. The blue switch clears the B-cell. The B-cell controls the basement light.
 
-The R-gate is a relay. It is everywhere. The R-gate controls the N-gate. The N-gate controls the R-gate.
-
-When play begins, try silently switching on the R-gate.
-
-The A-gate is an and-gate. It is everywhere. The counter of the A-gate is 0. The blue switch and the R-gate control the A-gate.
-
-The O-gate is an or-gate. It is everywhere. The counter of the O-gate is 1. The red switch and the A-gate control the O-gate.
-
-The O-gate controls the basement light.
+The A-gate is an and-gate. It is everywhere. The red switch controls the A-gate.
 
 Understand "flip [something switched off]" as switching on. Understand "flip [something switched on]" as switching off. Understand "flip [something]" as switching on.
 

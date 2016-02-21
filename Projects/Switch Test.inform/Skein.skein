@@ -1,25 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Skein rootNode="node-0x029B8CF8" xmlns="http://www.logicalshift.org.uk/IF/Skein">
+<Skein rootNode="node-0x02975440" xmlns="http://www.logicalshift.org.uk/IF/Skein">
   <generator>Inform 7 for Windows</generator>
-  <activeNode nodeId="node-0x13691478"/>
-  <item nodeId="node-0x029B8CF8">
+  <activeNode nodeId="node-0x02975440"/>
+  <item nodeId="node-0x02975440">
     <command xml:space="preserve">- start -</command>
-    <result xml:space="preserve">Switch Test&#x000A;An Interactive Fiction by Christian Schulz&#x000A;Release 1 / Serial number 160214 / Inform 7 build 6L38 (I6/v6.33 lib 6/12N) SD&#x000A;&#x000A;Terrifying Basement&#x000A;You can see a red switch and a blue switch here.&#x000A;&#x000A;&gt;</result>
+    <result xml:space="preserve">Switch Test&#x000A;An Interactive Fiction by Christian Schulz&#x000A;Release 1 / Serial number 160221 / Inform 7 build 6L38 (I6/v6.33 lib 6/12N) SD&#x000A;&#x000A;Darkness&#x000A;It is pitch dark, and you can't see a thing.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <played>YES</played>
     <changed>NO</changed>
     <temporary score="0">NO</temporary>
     <children>
-      <child nodeId="node-0x029B8E48"/>
-      <child nodeId="node-0x029B89E8"/>
-      <child nodeId="node-0x029B87B8"/>
-      <child nodeId="node-0x029B8908"/>
-      <child nodeId="node-0x165FD710"/>
-      <child nodeId="node-0x165FD860"/>
-      <child nodeId="node-0x162A5B48"/>
+      <child nodeId="node-0x029754B0"/>
+      <child nodeId="node-0x08A4AB00"/>
+      <child nodeId="node-0x08A4AB70"/>
+      <child nodeId="node-0x08A4C300"/>
+      <child nodeId="node-0x08A4C3E0"/>
+      <child nodeId="node-0x08A4C530"/>
     </children>
   </item>
-  <item nodeId="node-0x029B8E48">
+  <item nodeId="node-0x029754B0">
     <command xml:space="preserve">l</command>
     <result xml:space="preserve">Terrifying Basement&#x000A;You can see a red switch and a blue switch here.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -27,12 +26,12 @@
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x029B8EB8"/>
-      <child nodeId="node-0x162A5678"/>
-      <child nodeId="node-0x13690FA8"/>
+      <child nodeId="node-0x02975600"/>
+      <child nodeId="node-0x029759F0"/>
+      <child nodeId="node-0x08A49DA0"/>
     </children>
   </item>
-  <item nodeId="node-0x029B8EB8">
+  <item nodeId="node-0x02975600">
     <command xml:space="preserve">flip switch</command>
     <result xml:space="preserve">You switch the light switch off.&#x000A;&#x000A;It is now pitch dark in here!&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -40,11 +39,11 @@
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x029B8F28"/>
-      <child nodeId="node-0x029B8748"/>
+      <child nodeId="node-0x02975670"/>
+      <child nodeId="node-0x02975980"/>
     </children>
   </item>
-  <item nodeId="node-0x029B8F28">
+  <item nodeId="node-0x02975670">
     <command xml:space="preserve">l</command>
     <result xml:space="preserve">Darkness&#x000A;It is pitch dark, and you can't see a thing.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -52,10 +51,10 @@
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x029B8F98"/>
+      <child nodeId="node-0x029756E0"/>
     </children>
   </item>
-  <item nodeId="node-0x029B8F98">
+  <item nodeId="node-0x029756E0">
     <command xml:space="preserve">flip switch</command>
     <result xml:space="preserve">You switch the light switch on.&#x000A;&#x000A;Terrifying Basement&#x000A;You can see a light switch here.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -63,10 +62,10 @@
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x029B9008"/>
+      <child nodeId="node-0x02975750"/>
     </children>
   </item>
-  <item nodeId="node-0x029B9008">
+  <item nodeId="node-0x02975750">
     <command xml:space="preserve">u</command>
     <result xml:space="preserve">Upstairs&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -74,10 +73,10 @@
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x029B9078"/>
+      <child nodeId="node-0x029757C0"/>
     </children>
   </item>
-  <item nodeId="node-0x029B9078">
+  <item nodeId="node-0x029757C0">
     <command xml:space="preserve">l</command>
     <result xml:space="preserve">Upstairs&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -85,10 +84,10 @@
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x029B90E8"/>
+      <child nodeId="node-0x02975830"/>
     </children>
   </item>
-  <item nodeId="node-0x029B90E8">
+  <item nodeId="node-0x02975830">
     <command xml:space="preserve">d</command>
     <result xml:space="preserve">Terrifying Basement&#x000A;You can see a light switch here.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -96,10 +95,10 @@
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x029B9158"/>
+      <child nodeId="node-0x029758A0"/>
     </children>
   </item>
-  <item nodeId="node-0x029B9158">
+  <item nodeId="node-0x029758A0">
     <command xml:space="preserve">u</command>
     <result xml:space="preserve">Upstairs&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -107,10 +106,10 @@
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x029B91C8"/>
+      <child nodeId="node-0x02975910"/>
     </children>
   </item>
-  <item nodeId="node-0x029B91C8">
+  <item nodeId="node-0x02975910">
     <command xml:space="preserve">flip switch</command>
     <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -118,7 +117,7 @@
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
   </item>
-  <item nodeId="node-0x029B8748">
+  <item nodeId="node-0x02975980">
     <command xml:space="preserve">flip switch</command>
     <result xml:space="preserve">relation of things to effects: controlling relation&#x000A;Controlling relates various things to various effects:&#x000A;  The light switch  &gt;=&gt;  the basement light&#x000A;DEBUG 1DEBUG 2relation of things to effects: controlling relation&#x000A;Controlling relates various things to various effects:&#x000A;  The light switch  &gt;=&gt;  the basement light&#x000A;&#x000A;&#x000A;Terrifying Basement&#x000A;You can see a light switch and a basement light here.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -126,7 +125,7 @@
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
   </item>
-  <item nodeId="node-0x162A5678">
+  <item nodeId="node-0x029759F0">
     <command xml:space="preserve">l</command>
     <result xml:space="preserve">Terrifying Basement&#x000A;You can see a red switch and a blue switch here.&#x000A;&#x000A;1, 1&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -134,10 +133,10 @@
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x162A5608"/>
+      <child nodeId="node-0x02975A60"/>
     </children>
   </item>
-  <item nodeId="node-0x162A5608">
+  <item nodeId="node-0x02975A60">
     <command xml:space="preserve">l</command>
     <result xml:space="preserve">Terrifying Basement&#x000A;You can see a red switch and a blue switch here.&#x000A;&#x000A;0, 1&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -145,12 +144,12 @@
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x162A5598"/>
-      <child nodeId="node-0x162A5758"/>
-      <child nodeId="node-0x14BD8290"/>
+      <child nodeId="node-0x02975AD0"/>
+      <child nodeId="node-0x02975BB0"/>
+      <child nodeId="node-0x08A49780"/>
     </children>
   </item>
-  <item nodeId="node-0x162A5598">
+  <item nodeId="node-0x02975AD0">
     <command xml:space="preserve"></command>
     <result xml:space="preserve">I beg your pardon?&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -158,10 +157,10 @@
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x162A56E8"/>
+      <child nodeId="node-0x02975B40"/>
     </children>
   </item>
-  <item nodeId="node-0x162A56E8">
+  <item nodeId="node-0x02975B40">
     <command xml:space="preserve">l</command>
     <result xml:space="preserve">Terrifying Basement&#x000A;You can see a red switch and a blue switch here.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -169,7 +168,7 @@
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
   </item>
-  <item nodeId="node-0x162A5758">
+  <item nodeId="node-0x02975BB0">
     <command xml:space="preserve">u</command>
     <result xml:space="preserve">Upstairs&#x000A;You can't reach into the Terrifying Basement.&#x000A;&#x000A;You can't reach into the Terrifying Basement.&#x000A;&#x000A;You can't reach into the Terrifying Basement.&#x000A;&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -177,10 +176,10 @@
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x162A57C8"/>
+      <child nodeId="node-0x02975C20"/>
     </children>
   </item>
-  <item nodeId="node-0x162A57C8">
+  <item nodeId="node-0x02975C20">
     <command xml:space="preserve">l</command>
     <result xml:space="preserve">Upstairs&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -188,10 +187,10 @@
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x162A5838"/>
+      <child nodeId="node-0x02975C90"/>
     </children>
   </item>
-  <item nodeId="node-0x162A5838">
+  <item nodeId="node-0x02975C90">
     <command xml:space="preserve">l</command>
     <result xml:space="preserve">Upstairs&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -199,10 +198,10 @@
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x162A58A8"/>
+      <child nodeId="node-0x02975D00"/>
     </children>
   </item>
-  <item nodeId="node-0x162A58A8">
+  <item nodeId="node-0x02975D00">
     <command xml:space="preserve">d</command>
     <result xml:space="preserve">Terrifying Basement&#x000A;You can see a red switch and a blue switch here.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -210,10 +209,10 @@
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x162A5918"/>
+      <child nodeId="node-0x02975D70"/>
     </children>
   </item>
-  <item nodeId="node-0x162A5918">
+  <item nodeId="node-0x02975D70">
     <command xml:space="preserve">l</command>
     <result xml:space="preserve">Terrifying Basement&#x000A;You can see a red switch and a blue switch here.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -221,10 +220,10 @@
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x162A5988"/>
+      <child nodeId="node-0x02975DE0"/>
     </children>
   </item>
-  <item nodeId="node-0x162A5988">
+  <item nodeId="node-0x02975DE0">
     <command xml:space="preserve">l</command>
     <result xml:space="preserve">Terrifying Basement&#x000A;You can see a red switch and a blue switch here.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -232,10 +231,10 @@
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x162A59F8"/>
+      <child nodeId="node-0x02975E50"/>
     </children>
   </item>
-  <item nodeId="node-0x162A59F8">
+  <item nodeId="node-0x02975E50">
     <command xml:space="preserve">l</command>
     <result xml:space="preserve">Terrifying Basement&#x000A;You can see a red switch and a blue switch here.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -243,7 +242,7 @@
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
   </item>
-  <item nodeId="node-0x14BD8290">
+  <item nodeId="node-0x08A49780">
     <command xml:space="preserve">l</command>
     <result xml:space="preserve">Terrifying Basement&#x000A;You can see a red switch and a blue switch here.&#x000A;&#x000A;1, 1&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -251,10 +250,10 @@
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x1742DB50"/>
+      <child nodeId="node-0x08A497F0"/>
     </children>
   </item>
-  <item nodeId="node-0x1742DB50">
+  <item nodeId="node-0x08A497F0">
     <command xml:space="preserve">l</command>
     <result xml:space="preserve">Terrifying Basement&#x000A;You can see a red switch and a blue switch here.&#x000A;&#x000A;0, 1&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -262,10 +261,10 @@
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x1742DA70"/>
+      <child nodeId="node-0x08A49860"/>
     </children>
   </item>
-  <item nodeId="node-0x1742DA70">
+  <item nodeId="node-0x08A49860">
     <command xml:space="preserve">l</command>
     <result xml:space="preserve">Terrifying Basement&#x000A;You can see a red switch and a blue switch here.&#x000A;&#x000A;1, 1&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -273,10 +272,10 @@
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x1742DAE0"/>
+      <child nodeId="node-0x08A498D0"/>
     </children>
   </item>
-  <item nodeId="node-0x1742DAE0">
+  <item nodeId="node-0x08A498D0">
     <command xml:space="preserve">flip red switch</command>
     <result xml:space="preserve">You switch the red switch off.&#x000A;&#x000A;0, 0&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -284,10 +283,10 @@
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x1742DBC0"/>
+      <child nodeId="node-0x08A49940"/>
     </children>
   </item>
-  <item nodeId="node-0x1742DBC0">
+  <item nodeId="node-0x08A49940">
     <command xml:space="preserve">look</command>
     <result xml:space="preserve">Terrifying Basement&#x000A;You can see a red switch and a blue switch here.&#x000A;&#x000A;1, 0&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -295,10 +294,10 @@
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x1742DC30"/>
+      <child nodeId="node-0x08A499B0"/>
     </children>
   </item>
-  <item nodeId="node-0x1742DC30">
+  <item nodeId="node-0x08A499B0">
     <command xml:space="preserve">l</command>
     <result xml:space="preserve">Terrifying Basement&#x000A;You can see a red switch and a blue switch here.&#x000A;&#x000A;0, 0&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -306,10 +305,10 @@
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x1742DCA0"/>
+      <child nodeId="node-0x08A49A20"/>
     </children>
   </item>
-  <item nodeId="node-0x1742DCA0">
+  <item nodeId="node-0x08A49A20">
     <command xml:space="preserve">l</command>
     <result xml:space="preserve">Terrifying Basement&#x000A;You can see a red switch and a blue switch here.&#x000A;&#x000A;1, 0&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -317,10 +316,10 @@
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x1742DD10"/>
+      <child nodeId="node-0x08A49A90"/>
     </children>
   </item>
-  <item nodeId="node-0x1742DD10">
+  <item nodeId="node-0x08A49A90">
     <command xml:space="preserve">flip blue switch</command>
     <result xml:space="preserve">You switch the blue switch on.&#x000A;&#x000A;1, 0&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -328,10 +327,10 @@
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x1742DD80"/>
+      <child nodeId="node-0x08A49B00"/>
     </children>
   </item>
-  <item nodeId="node-0x1742DD80">
+  <item nodeId="node-0x08A49B00">
     <command xml:space="preserve">flip blue switch</command>
     <result xml:space="preserve">You switch the blue switch off.&#x000A;&#x000A;1, 0&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -339,10 +338,10 @@
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x1742DE60"/>
+      <child nodeId="node-0x08A49B70"/>
     </children>
   </item>
-  <item nodeId="node-0x1742DE60">
+  <item nodeId="node-0x08A49B70">
     <command xml:space="preserve">flip blue switch</command>
     <result xml:space="preserve">You switch the blue switch on.&#x000A;&#x000A;1, 0&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -350,10 +349,10 @@
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x1742DED0"/>
+      <child nodeId="node-0x08A49BE0"/>
     </children>
   </item>
-  <item nodeId="node-0x1742DED0">
+  <item nodeId="node-0x08A49BE0">
     <command xml:space="preserve">l</command>
     <result xml:space="preserve">Terrifying Basement&#x000A;You can see a red switch and a blue switch here.&#x000A;&#x000A;2, 1&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -361,10 +360,10 @@
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x13690E58"/>
+      <child nodeId="node-0x08A49C50"/>
     </children>
   </item>
-  <item nodeId="node-0x13690E58">
+  <item nodeId="node-0x08A49C50">
     <command xml:space="preserve">l</command>
     <result xml:space="preserve">Terrifying Basement&#x000A;You can see a red switch and a blue switch here.&#x000A;&#x000A;1, 0&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -372,10 +371,10 @@
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x13690EC8"/>
+      <child nodeId="node-0x08A49CC0"/>
     </children>
   </item>
-  <item nodeId="node-0x13690EC8">
+  <item nodeId="node-0x08A49CC0">
     <command xml:space="preserve">l</command>
     <result xml:space="preserve">Terrifying Basement&#x000A;You can see a red switch and a blue switch here.&#x000A;&#x000A;2, 1&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -383,10 +382,10 @@
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x13690F38"/>
+      <child nodeId="node-0x08A49D30"/>
     </children>
   </item>
-  <item nodeId="node-0x13690F38">
+  <item nodeId="node-0x08A49D30">
     <command xml:space="preserve">l</command>
     <result xml:space="preserve">Terrifying Basement&#x000A;You can see a red switch and a blue switch here.&#x000A;&#x000A;1, 0&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -394,7 +393,7 @@
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
   </item>
-  <item nodeId="node-0x13690FA8">
+  <item nodeId="node-0x08A49DA0">
     <command xml:space="preserve">flip red switch</command>
     <result xml:space="preserve">You switch the red switch off.&#x000A;&#x000A;It is now pitch dark in here!&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -402,10 +401,10 @@
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x13691018"/>
+      <child nodeId="node-0x08A49E10"/>
     </children>
   </item>
-  <item nodeId="node-0x13691018">
+  <item nodeId="node-0x08A49E10">
     <command xml:space="preserve">l</command>
     <result xml:space="preserve">Darkness&#x000A;It is pitch dark, and you can't see a thing.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -413,10 +412,10 @@
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x13691088"/>
+      <child nodeId="node-0x08A49E80"/>
     </children>
   </item>
-  <item nodeId="node-0x13691088">
+  <item nodeId="node-0x08A49E80">
     <command xml:space="preserve">l</command>
     <result xml:space="preserve">Darkness&#x000A;It is pitch dark, and you can't see a thing.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -424,10 +423,10 @@
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x136910F8"/>
+      <child nodeId="node-0x08A49EF0"/>
     </children>
   </item>
-  <item nodeId="node-0x136910F8">
+  <item nodeId="node-0x08A49EF0">
     <command xml:space="preserve">flip blue switch</command>
     <result xml:space="preserve">You switch the blue switch on.&#x000A;&#x000A;Terrifying Basement&#x000A;You can see a red switch and a blue switch here.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -435,10 +434,10 @@
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x13691168"/>
+      <child nodeId="node-0x08A4A780"/>
     </children>
   </item>
-  <item nodeId="node-0x13691168">
+  <item nodeId="node-0x08A4A780">
     <command xml:space="preserve">z</command>
     <result xml:space="preserve">Time passes.&#x000A;&#x000A;It is now pitch dark in here!&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -446,10 +445,10 @@
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x136911D8"/>
+      <child nodeId="node-0x08A4A7F0"/>
     </children>
   </item>
-  <item nodeId="node-0x136911D8">
+  <item nodeId="node-0x08A4A7F0">
     <command xml:space="preserve">z</command>
     <result xml:space="preserve">Time passes.&#x000A;&#x000A;Terrifying Basement&#x000A;You can see a red switch and a blue switch here.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -457,10 +456,10 @@
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x13691248"/>
+      <child nodeId="node-0x08A4A860"/>
     </children>
   </item>
-  <item nodeId="node-0x13691248">
+  <item nodeId="node-0x08A4A860">
     <command xml:space="preserve">z</command>
     <result xml:space="preserve">Time passes.&#x000A;&#x000A;It is now pitch dark in here!&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -468,10 +467,10 @@
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x136912B8"/>
+      <child nodeId="node-0x08A4A8D0"/>
     </children>
   </item>
-  <item nodeId="node-0x136912B8">
+  <item nodeId="node-0x08A4A8D0">
     <command xml:space="preserve">z</command>
     <result xml:space="preserve">Time passes.&#x000A;&#x000A;Terrifying Basement&#x000A;You can see a red switch and a blue switch here.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -479,10 +478,10 @@
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x13691328"/>
+      <child nodeId="node-0x08A4A940"/>
     </children>
   </item>
-  <item nodeId="node-0x13691328">
+  <item nodeId="node-0x08A4A940">
     <command xml:space="preserve">flip red switch</command>
     <result xml:space="preserve">You switch the red switch on.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -490,10 +489,10 @@
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x13691398"/>
+      <child nodeId="node-0x08A4A9B0"/>
     </children>
   </item>
-  <item nodeId="node-0x13691398">
+  <item nodeId="node-0x08A4A9B0">
     <command xml:space="preserve">l</command>
     <result xml:space="preserve">Terrifying Basement&#x000A;You can see a red switch and a blue switch here.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -501,10 +500,10 @@
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x13691408"/>
+      <child nodeId="node-0x08A4AA20"/>
     </children>
   </item>
-  <item nodeId="node-0x13691408">
+  <item nodeId="node-0x08A4AA20">
     <command xml:space="preserve">l</command>
     <result xml:space="preserve">Terrifying Basement&#x000A;You can see a red switch and a blue switch here.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -512,10 +511,10 @@
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x13691478"/>
+      <child nodeId="node-0x08A4AA90"/>
     </children>
   </item>
-  <item nodeId="node-0x13691478">
+  <item nodeId="node-0x08A4AA90">
     <command xml:space="preserve">l</command>
     <result xml:space="preserve">Terrifying Basement&#x000A;You can see a red switch and a blue switch here.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -523,7 +522,7 @@
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
   </item>
-  <item nodeId="node-0x029B89E8">
+  <item nodeId="node-0x08A4AB00">
     <command xml:space="preserve">help</command>
     <result xml:space="preserve">That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -531,7 +530,7 @@
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
   </item>
-  <item nodeId="node-0x029B87B8">
+  <item nodeId="node-0x08A4AB70">
     <command xml:space="preserve">flip switch</command>
     <result xml:space="preserve">You switch the blue switch on.&#x000A;&#x000A;It is now pitch dark in here!&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -539,12 +538,12 @@
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x029B8A58"/>
-      <child nodeId="node-0x029B8828"/>
-      <child nodeId="node-0x029B8588"/>
+      <child nodeId="node-0x08A4ABE0"/>
+      <child nodeId="node-0x08A4ACC0"/>
+      <child nodeId="node-0x08A4C220"/>
     </children>
   </item>
-  <item nodeId="node-0x029B8A58">
+  <item nodeId="node-0x08A4ABE0">
     <command xml:space="preserve">l</command>
     <result xml:space="preserve">Terrifying Basement&#x000A;You can see a light switch here.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -552,10 +551,10 @@
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x029B8978"/>
+      <child nodeId="node-0x08A4AC50"/>
     </children>
   </item>
-  <item nodeId="node-0x029B8978">
+  <item nodeId="node-0x08A4AC50">
     <command xml:space="preserve">flip switch</command>
     <result xml:space="preserve">You switch the light switch on.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -563,7 +562,7 @@
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
   </item>
-  <item nodeId="node-0x029B8828">
+  <item nodeId="node-0x08A4ACC0">
     <command xml:space="preserve">flip switch</command>
     <result xml:space="preserve">Which do you mean, the red switch or the blue switch?&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -571,13 +570,13 @@
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x029B8438"/>
-      <child nodeId="node-0x029B86D8"/>
-      <child nodeId="node-0x165FD160"/>
-      <child nodeId="node-0x14389DF0"/>
+      <child nodeId="node-0x08A4AD30"/>
+      <child nodeId="node-0x08A4AE80"/>
+      <child nodeId="node-0x08A4BFF0"/>
+      <child nodeId="node-0x08A4C0D0"/>
     </children>
   </item>
-  <item nodeId="node-0x029B8438">
+  <item nodeId="node-0x08A4AD30">
     <command xml:space="preserve">l</command>
     <result xml:space="preserve">Darkness&#x000A;It is pitch dark, and you can't see a thing.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -585,10 +584,10 @@
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x029B8AC8"/>
+      <child nodeId="node-0x08A4ADA0"/>
     </children>
   </item>
-  <item nodeId="node-0x029B8AC8">
+  <item nodeId="node-0x08A4ADA0">
     <command xml:space="preserve">flip switch</command>
     <result xml:space="preserve">&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -596,10 +595,10 @@
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x029B83C8"/>
+      <child nodeId="node-0x08A4AE10"/>
     </children>
   </item>
-  <item nodeId="node-0x029B83C8">
+  <item nodeId="node-0x08A4AE10">
     <command xml:space="preserve">l</command>
     <result xml:space="preserve">Darkness&#x000A;It is pitch dark, and you can't see a thing.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -607,7 +606,7 @@
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
   </item>
-  <item nodeId="node-0x029B86D8">
+  <item nodeId="node-0x08A4AE80">
     <command xml:space="preserve">relations</command>
     <result xml:space="preserve">&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -615,10 +614,10 @@
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x029B8668"/>
+      <child nodeId="node-0x08A4AEF0"/>
     </children>
   </item>
-  <item nodeId="node-0x029B8668">
+  <item nodeId="node-0x08A4AEF0">
     <command xml:space="preserve">control</command>
     <result xml:space="preserve">That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -626,10 +625,10 @@
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x029B85F8"/>
+      <child nodeId="node-0x08A4BF80"/>
     </children>
   </item>
-  <item nodeId="node-0x029B85F8">
+  <item nodeId="node-0x08A4BF80">
     <command xml:space="preserve">relations</command>
     <result xml:space="preserve">&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -637,7 +636,7 @@
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
   </item>
-  <item nodeId="node-0x165FD160">
+  <item nodeId="node-0x08A4BFF0">
     <command xml:space="preserve">flip switch</command>
     <result xml:space="preserve">You switch the light switch on.&#x000A;&#x000A;Terrifying Basement&#x000A;You can see a light switch here.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -645,10 +644,10 @@
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x165FD1D0"/>
+      <child nodeId="node-0x08A4C060"/>
     </children>
   </item>
-  <item nodeId="node-0x165FD1D0">
+  <item nodeId="node-0x08A4C060">
     <command xml:space="preserve">flip switch</command>
     <result xml:space="preserve">You switch the light switch off.&#x000A;&#x000A;It is now pitch dark in here!&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -656,7 +655,7 @@
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
   </item>
-  <item nodeId="node-0x14389DF0">
+  <item nodeId="node-0x08A4C0D0">
     <command xml:space="preserve">blue</command>
     <result xml:space="preserve">You switch the blue switch off.&#x000A;&#x000A;Terrifying Basement&#x000A;You can see a red switch and a blue switch here.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -664,10 +663,10 @@
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x14389D80"/>
+      <child nodeId="node-0x08A4C140"/>
     </children>
   </item>
-  <item nodeId="node-0x14389D80">
+  <item nodeId="node-0x08A4C140">
     <command xml:space="preserve">flip red switch</command>
     <result xml:space="preserve">You switch the red switch off.&#x000A;&#x000A;It is now pitch dark in here!&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -675,10 +674,10 @@
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x14389D10"/>
+      <child nodeId="node-0x08A4C1B0"/>
     </children>
   </item>
-  <item nodeId="node-0x14389D10">
+  <item nodeId="node-0x08A4C1B0">
     <command xml:space="preserve">flip red switch</command>
     <result xml:space="preserve">You switch the red switch on.&#x000A;&#x000A;Terrifying Basement&#x000A;You can see a red switch and a blue switch here.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -686,7 +685,7 @@
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
   </item>
-  <item nodeId="node-0x029B8588">
+  <item nodeId="node-0x08A4C220">
     <command xml:space="preserve">;l</command>
     <result xml:space="preserve">That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -694,10 +693,10 @@
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x029B8518"/>
+      <child nodeId="node-0x08A4C290"/>
     </children>
   </item>
-  <item nodeId="node-0x029B8518">
+  <item nodeId="node-0x08A4C290">
     <command xml:space="preserve">l</command>
     <result xml:space="preserve">Terrifying Basement&#x000A;You can see a light switch here.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -705,7 +704,7 @@
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
   </item>
-  <item nodeId="node-0x029B8908">
+  <item nodeId="node-0x08A4C300">
     <command xml:space="preserve">flip the switch</command>
     <result xml:space="preserve">It isn't something you can switch.&#x000A;&#x000A;You switch the light switch on.&#x000A;&#x000A;It is now pitch dark in here!&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -713,10 +712,10 @@
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x029B8898"/>
+      <child nodeId="node-0x08A4C370"/>
     </children>
   </item>
-  <item nodeId="node-0x029B8898">
+  <item nodeId="node-0x08A4C370">
     <command xml:space="preserve">flip the switch</command>
     <result xml:space="preserve">It isn't something you can switch.&#x000A;&#x000A;You switch the light switch off.&#x000A;&#x000A;Terrifying Basement&#x000A;You can see a light switch here.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -724,7 +723,7 @@
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
   </item>
-  <item nodeId="node-0x165FD710">
+  <item nodeId="node-0x08A4C3E0">
     <command xml:space="preserve"></command>
     <result xml:space="preserve">I beg your pardon?&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -732,10 +731,10 @@
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x165FD6A0"/>
+      <child nodeId="node-0x08A4C450"/>
     </children>
   </item>
-  <item nodeId="node-0x165FD6A0">
+  <item nodeId="node-0x08A4C450">
     <command xml:space="preserve">flip switch</command>
     <result xml:space="preserve">That's already off.&#x000A;&#x000A;You switch the light switch on.&#x000A;&#x000A;It is now pitch dark in here!&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -743,10 +742,10 @@
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x165FD630"/>
+      <child nodeId="node-0x08A4C4C0"/>
     </children>
   </item>
-  <item nodeId="node-0x165FD630">
+  <item nodeId="node-0x08A4C4C0">
     <command xml:space="preserve">flip switch</command>
     <result xml:space="preserve">You switch the light switch off.&#x000A;&#x000A;Terrifying Basement&#x000A;You can see a light switch here.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -754,54 +753,30 @@
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
   </item>
-  <item nodeId="node-0x165FD860">
+  <item nodeId="node-0x08A4C530">
     <command xml:space="preserve">flip red switch</command>
-    <result xml:space="preserve">You switch the red switch off.&#x000A;&#x000A;&gt;</result>
+    <result xml:space="preserve">You switch the red switch on.&#x000A;&#x000A;Terrifying Basement&#x000A;You can see a red switch and a blue switch here.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <played>YES</played>
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x165FD7F0"/>
-      <child nodeId="node-0x12D217A0"/>
+      <child nodeId="node-0x08A4C5A0"/>
     </children>
   </item>
-  <item nodeId="node-0x165FD7F0">
+  <item nodeId="node-0x08A4C5A0">
     <command xml:space="preserve">flip red switch</command>
-    <result xml:space="preserve">You switch the red switch on.&#x000A;&#x000A;Terrifying Basement&#x000A;You can see a red switch and a blue switch here.&#x000A;&#x000A;&gt;</result>
+    <result xml:space="preserve">You switch the red switch off.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <played>YES</played>
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x165FD780"/>
-      <child nodeId="node-0x14389F40"/>
+      <child nodeId="node-0x08A4C610"/>
+      <child nodeId="node-0x08A4DC50"/>
     </children>
   </item>
-  <item nodeId="node-0x165FD780">
-    <command xml:space="preserve">flip red switch</command>
-    <result xml:space="preserve">You switch the red switch off.&#x000A;&#x000A;It is now pitch dark in here!&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="0">YES</temporary>
-    <children>
-      <child nodeId="node-0x14389840"/>
-    </children>
-  </item>
-  <item nodeId="node-0x14389840">
-    <command xml:space="preserve">flip red switch</command>
-    <result xml:space="preserve">You switch the red switch on.&#x000A;&#x000A;Terrifying Basement&#x000A;You can see a red switch and a blue switch here.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="0">YES</temporary>
-    <children>
-      <child nodeId="node-0x143898B0"/>
-      <child nodeId="node-0x12D216C0"/>
-    </children>
-  </item>
-  <item nodeId="node-0x143898B0">
+  <item nodeId="node-0x08A4C610">
     <command xml:space="preserve">flip red switch</command>
     <result xml:space="preserve">You switch the red switch off.&#x000A;&#x000A;It is now pitch dark in here!&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -809,10 +784,33 @@
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x14389920"/>
+      <child nodeId="node-0x08A4C680"/>
     </children>
   </item>
-  <item nodeId="node-0x14389920">
+  <item nodeId="node-0x08A4C680">
+    <command xml:space="preserve">flip red switch</command>
+    <result xml:space="preserve">You switch the red switch on.&#x000A;&#x000A;Terrifying Basement&#x000A;You can see a red switch and a blue switch here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x08A4C6F0"/>
+      <child nodeId="node-0x08A4DB70"/>
+    </children>
+  </item>
+  <item nodeId="node-0x08A4C6F0">
+    <command xml:space="preserve">flip red switch</command>
+    <result xml:space="preserve">You switch the red switch off.&#x000A;&#x000A;It is now pitch dark in here!&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x08A4D780"/>
+    </children>
+  </item>
+  <item nodeId="node-0x08A4D780">
     <command xml:space="preserve">flip blue switch</command>
     <result xml:space="preserve">You switch the blue switch off.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -820,10 +818,10 @@
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x14389990"/>
+      <child nodeId="node-0x08A4D7F0"/>
     </children>
   </item>
-  <item nodeId="node-0x14389990">
+  <item nodeId="node-0x08A4D7F0">
     <command xml:space="preserve">flip red switch</command>
     <result xml:space="preserve">You switch the red switch on.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -831,10 +829,10 @@
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x14389A00"/>
+      <child nodeId="node-0x08A4D860"/>
     </children>
   </item>
-  <item nodeId="node-0x14389A00">
+  <item nodeId="node-0x08A4D860">
     <command xml:space="preserve">flip blue switch</command>
     <result xml:space="preserve">You switch the blue switch on.&#x000A;&#x000A;Terrifying Basement&#x000A;You can see a red switch and a blue switch here.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -842,10 +840,10 @@
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x14389A70"/>
+      <child nodeId="node-0x08A4D8D0"/>
     </children>
   </item>
-  <item nodeId="node-0x14389A70">
+  <item nodeId="node-0x08A4D8D0">
     <command xml:space="preserve">flip blue switch</command>
     <result xml:space="preserve">You switch the blue switch off.&#x000A;&#x000A;It is now pitch dark in here!&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -853,10 +851,10 @@
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x14389AE0"/>
+      <child nodeId="node-0x08A4D940"/>
     </children>
   </item>
-  <item nodeId="node-0x14389AE0">
+  <item nodeId="node-0x08A4D940">
     <command xml:space="preserve">flip blue switch</command>
     <result xml:space="preserve">You switch the blue switch on.&#x000A;&#x000A;Terrifying Basement&#x000A;You can see a red switch and a blue switch here.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -864,10 +862,10 @@
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x14389B50"/>
+      <child nodeId="node-0x08A4D9B0"/>
     </children>
   </item>
-  <item nodeId="node-0x14389B50">
+  <item nodeId="node-0x08A4D9B0">
     <command xml:space="preserve">flip blue switch</command>
     <result xml:space="preserve">You switch the blue switch off.&#x000A;&#x000A;It is now pitch dark in here!&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -875,10 +873,10 @@
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x14389BC0"/>
+      <child nodeId="node-0x08A4DA20"/>
     </children>
   </item>
-  <item nodeId="node-0x14389BC0">
+  <item nodeId="node-0x08A4DA20">
     <command xml:space="preserve">flip red switch</command>
     <result xml:space="preserve">You switch the red switch off.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -886,10 +884,10 @@
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x14389C30"/>
+      <child nodeId="node-0x08A4DA90"/>
     </children>
   </item>
-  <item nodeId="node-0x14389C30">
+  <item nodeId="node-0x08A4DA90">
     <command xml:space="preserve">flip blue switch</command>
     <result xml:space="preserve">You switch the blue switch on.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -897,10 +895,10 @@
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x14389CA0"/>
+      <child nodeId="node-0x08A4DB00"/>
     </children>
   </item>
-  <item nodeId="node-0x14389CA0">
+  <item nodeId="node-0x08A4DB00">
     <command xml:space="preserve">flip red switch</command>
     <result xml:space="preserve">You switch the red switch on.&#x000A;&#x000A;Terrifying Basement&#x000A;You can see a red switch and a blue switch here.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -908,7 +906,7 @@
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
   </item>
-  <item nodeId="node-0x12D216C0">
+  <item nodeId="node-0x08A4DB70">
     <command xml:space="preserve">flip blue switch</command>
     <result xml:space="preserve">You switch the blue switch on.&#x000A;&#x000A;It is now pitch dark in here!&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -916,10 +914,10 @@
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x12D21730"/>
+      <child nodeId="node-0x08A4DBE0"/>
     </children>
   </item>
-  <item nodeId="node-0x12D21730">
+  <item nodeId="node-0x08A4DBE0">
     <command xml:space="preserve">flip blue switch</command>
     <result xml:space="preserve">You switch the blue switch off.&#x000A;&#x000A;Terrifying Basement&#x000A;You can see a red switch and a blue switch here.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -927,7 +925,7 @@
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
   </item>
-  <item nodeId="node-0x14389F40">
+  <item nodeId="node-0x08A4DC50">
     <command xml:space="preserve">flip blue switch</command>
     <result xml:space="preserve">You switch the blue switch on.&#x000A;&#x000A;It is now pitch dark in here!&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -935,10 +933,11 @@
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x14389ED0"/>
+      <child nodeId="node-0x08A4DCC0"/>
+      <child nodeId="node-0x02996B28"/>
     </children>
   </item>
-  <item nodeId="node-0x14389ED0">
+  <item nodeId="node-0x08A4DCC0">
     <command xml:space="preserve">flip red switch</command>
     <result xml:space="preserve">You switch the red switch off.&#x000A;&#x000A;Terrifying Basement&#x000A;You can see a red switch and a blue switch here.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -946,10 +945,10 @@
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x14389E60"/>
+      <child nodeId="node-0x08A4DD30"/>
     </children>
   </item>
-  <item nodeId="node-0x14389E60">
+  <item nodeId="node-0x08A4DD30">
     <command xml:space="preserve">flip blue switch</command>
     <result xml:space="preserve">You switch the blue switch off.&#x000A;&#x000A;It is now pitch dark in here!&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -957,10 +956,10 @@
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x14389FB0"/>
+      <child nodeId="node-0x08A4DDA0"/>
     </children>
   </item>
-  <item nodeId="node-0x14389FB0">
+  <item nodeId="node-0x08A4DDA0">
     <command xml:space="preserve">flip red switch</command>
     <result xml:space="preserve">You switch the red switch on.&#x000A;&#x000A;Terrifying Basement&#x000A;You can see a red switch and a blue switch here.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -968,10 +967,10 @@
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x12D21500"/>
+      <child nodeId="node-0x08A4DE80"/>
     </children>
   </item>
-  <item nodeId="node-0x12D21500">
+  <item nodeId="node-0x08A4DE80">
     <command xml:space="preserve">x red switch</command>
     <result xml:space="preserve">The red switch is currently switched on.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -979,10 +978,10 @@
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x12D21570"/>
+      <child nodeId="node-0x08A4DEF0"/>
     </children>
   </item>
-  <item nodeId="node-0x12D21570">
+  <item nodeId="node-0x08A4DEF0">
     <command xml:space="preserve">x blue switch</command>
     <result xml:space="preserve">The blue switch is currently switched off.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -990,10 +989,10 @@
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x12D215E0"/>
+      <child nodeId="node-0x08A4E780"/>
     </children>
   </item>
-  <item nodeId="node-0x12D215E0">
+  <item nodeId="node-0x08A4E780">
     <command xml:space="preserve">flip blue switch</command>
     <result xml:space="preserve">You switch the blue switch on.&#x000A;&#x000A;It is now pitch dark in here!&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -1001,10 +1000,10 @@
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x12D21650"/>
+      <child nodeId="node-0x08A4E7F0"/>
     </children>
   </item>
-  <item nodeId="node-0x12D21650">
+  <item nodeId="node-0x08A4E7F0">
     <command xml:space="preserve">flip blue switch</command>
     <result xml:space="preserve">You switch the blue switch off.&#x000A;&#x000A;Terrifying Basement&#x000A;You can see a red switch and a blue switch here.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -1012,61 +1011,64 @@
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
   </item>
-  <item nodeId="node-0x12D217A0">
-    <command xml:space="preserve">look</command>
-    <result xml:space="preserve">Terrifying Basement&#x000A;You can see a red switch and a blue switch here.&#x000A;&#x000A;It is now pitch dark in here!&#x000A;&#x000A;&gt;</result>
+  <item nodeId="node-0x02996B28">
+    <command xml:space="preserve">flip blue switch</command>
+    <result xml:space="preserve">You switch the blue switch off.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <played>YES</played>
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x12D21810"/>
+      <child nodeId="node-0x02996B98"/>
     </children>
   </item>
-  <item nodeId="node-0x12D21810">
+  <item nodeId="node-0x02996B98">
     <command xml:space="preserve">flip red switch</command>
-    <result xml:space="preserve">You switch the red switch on.&#x000A;&#x000A;&gt;</result>
+    <result xml:space="preserve">You switch the red switch on.&#x000A;&#x000A;Terrifying Basement&#x000A;You can see a red switch and a blue switch here.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <played>YES</played>
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x162A5528"/>
+      <child nodeId="node-0x02996C08"/>
     </children>
   </item>
-  <item nodeId="node-0x162A5528">
-    <command xml:space="preserve">z</command>
-    <result xml:space="preserve">Time passes.&#x000A;&#x000A;Terrifying Basement&#x000A;You can see a red switch and a blue switch here.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="0">YES</temporary>
-  </item>
-  <item nodeId="node-0x162A5B48">
-    <command xml:space="preserve">u</command>
-    <result xml:space="preserve">Upstairs&#x000A;&#x000A;&gt;</result>
+  <item nodeId="node-0x02996C08">
+    <command xml:space="preserve">flip blue switch</command>
+    <result xml:space="preserve">You switch the blue switch on.&#x000A;&#x000A;It is now pitch dark in here!&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <played>YES</played>
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x162A5AD8"/>
+      <child nodeId="node-0x02996C78"/>
     </children>
   </item>
-  <item nodeId="node-0x162A5AD8">
-    <command xml:space="preserve">d</command>
-    <result xml:space="preserve">Terrifying Basement&#x000A;You can see a red switch and a blue switch here.&#x000A;&#x000A;&gt;</result>
+  <item nodeId="node-0x02996C78">
+    <command xml:space="preserve">flip blue switch</command>
+    <result xml:space="preserve">You switch the blue switch off.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <played>YES</played>
-    <changed>YES</changed>
+    <changed>NO</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x162A5A68"/>
+      <child nodeId="node-0x02996CE8"/>
     </children>
   </item>
-  <item nodeId="node-0x162A5A68">
-    <command xml:space="preserve">u</command>
-    <result xml:space="preserve">Upstairs&#x000A;&#x000A;&gt;</result>
+  <item nodeId="node-0x02996CE8">
+    <command xml:space="preserve">flip blue switch</command>
+    <result xml:space="preserve">You switch the blue switch on.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02996D58"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02996D58">
+    <command xml:space="preserve">flip blue switch</command>
+    <result xml:space="preserve">You switch the blue switch off.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <played>YES</played>
     <changed>NO</changed>

@@ -4,15 +4,22 @@ Include version 3 of Switch Control by Christian Schulz.
 
 Include Locksmith by Emily Short.
 
-A button is a kind of device. [NOTE: THIS NEEDS TO BE PUT IN THE LIBRARY!]
+A card slot is a kind of control. A key-card is a kind of thing.
 
-A switch is a kind of device. [NOTE: DITTO]
+Activating relates various key-cards to various card slots. The verb to activate (it activates, they activate, it activated, it is activated) means the activating relation.
 
-A bit-cell is a kind of gate. [NOTE: WHEE]
+Swiping is an action applying to two touchable things. Understand "swipe [something] through [something]" or "swipe [something] in [something]" or "put [a key-card] in [a card slot]" as swiping.
 
-A card slot is a kind of device. [TODO: ACTUALLY SUPPORT THIS]
+Check swiping:
+	if the noun is not a key-card or the second noun is not a card slot, say "You don't see how that would help anything." instead.
 
-A knob is a kind of device. [TODO: DITTO]
+Carry out swiping:
+	if the noun activates the second noun, try silently switching on the second noun.
+	
+Report swiping:
+	say "You swipe [the noun] through [the second noun]."
+
+A knob is a kind of device. Understand "turn [a knob that is switched off]" as switching on. Understand "turn [a knob that is switched on]" as switching off. Understand "turn [a knob]" as switching on.
 
 The Upper Hall is a room. "You are standing in the upper hall.  You can see the upper landing to your north, and the surface to your south (which appears to lead out of the story)."  South of the Upper Hall is the Surface. Instead of going south from the Upper Hall, end the story.
 
@@ -76,7 +83,7 @@ Instead of going south through the elevator door when the elevator door is open:
 
 East of the Basement is the Upper Storage Room.
 
-The yale key is a thing in the Upper Storage Room.
+The yale key is a key-card in the Upper Storage Room.
 
 Below the Long Corridor is the Station Entrance. The station entrance door is north of the Station Entrance and south of the Station Hall South. The station entrance door is a door. It is unkickable and locked.
 
@@ -116,7 +123,7 @@ Instead of turning off the auxiliary generator power with something: say "The au
 
 West of the Station Hall Southwest is the Lab.
 
-The security card is a thing in the Lab.
+The security card is a key-card in the Lab.
 
 The control room door is east of the Station Hall Southeast and west of the Control Room. The control room door is a door. It is unkickable and locked.
 
