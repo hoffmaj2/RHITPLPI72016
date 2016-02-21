@@ -14,17 +14,19 @@ A card slot is a kind of device. [TODO: ACTUALLY SUPPORT THIS]
 
 A knob is a kind of device. [TODO: DITTO]
 
-The Upper Hall is a room. South of the Upper Hall is the Surface. Instead of going south from the Upper Hall, end the story.
+The Upper Hall is a room. "You are standing in the upper hall.  You can see the upper landing to your north, and the surface to your south (which appears to lead out of the story)."  South of the Upper Hall is the Surface. Instead of going south from the Upper Hall, end the story.
 
-North of the Upper Hall is the Upper Landing.
+North of the Upper Hall is the Upper Landing.  Upper Landing is a room.  "You are in the upper landing.  You can see the lower hall south below you, and the upper hall to your south."
 
-Below the Upper Landing is the Lower Hall South. The Lower Hall South is a room with printed name "Lower Hall (South)".
+Below the Upper Landing is the Lower Hall South. The Lower Hall South is a room with printed name "Lower Hall (South)."  It has description "You are in the lower hall south.  You can see lower hall north ot your north, and the upper landing above you." The player is in the lower hall south.
 
-North of the Lower Hall South is the Lower Hall North. The Lower Hall North is a room with printed name "Lower Hall (North)".
+North of the Lower Hall South is the Lower Hall North. The Lower Hall North is a room with printed name "Lower Hall (North)".  "You are north of the lower hall.  You see the lower hall to your south, and a door to your east leading to the office."
 
 A door can be kickable or unkickable. A door is usually unkickable.
 
-The office door is east of the Lower Hall North and west of the Office. The office door is a closed door. The office door is not openable. The office door is kickable.
+The Office is a room.  "You are in the office. You see a door to your west leading to the lower hall north, and the private office to your east, and the office elevator door to your north."
+
+The office door is east of the Lower Hall North and west of the Office.  The office door is a closed door. The office door is not openable. The office door is kickable.
 
 Kicking is an action applying to one touchable thing. Understand "kick [something]" as kicking.
 
@@ -33,13 +35,16 @@ Check kicking:
 	if the noun is open, say "It's already open." instead;
 	if the noun is unkickable, say "You forcefully push your foot into [the noun], but it refuses to give." instead.
 	
+Instead of opening:
+	if the noun is kickable, if not openable, say "The door won't budge, but feels weak enough to be kicked."
+	
 Carry out kicking:
 	now the noun is open.
 	
 Report kicking:
 	say "You forcefully push your foot into [the noun], and it swings open with a loud BANG."
 	
-East of the Office is the Private Office.
+East of the Office is the Private Office.  The Private Office is a room.  "You are in the private office.  You see the office to your west."
 
 The office elevator door is north of the Office and south of the Elevator. The office elevator door is a door. It is unkickable and not openable.
 
