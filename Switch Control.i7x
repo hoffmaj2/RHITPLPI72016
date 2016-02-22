@@ -67,7 +67,7 @@ Instead of turning on a xor-gate (called the component) with something:
 	if the counter of the component is even, try silently switching off the component;
 	if the counter of the component is odd, try silently switching on the component.
 	
-Volume 3 - Relays
+Volume 3 - Relays and Bit-Cells
 
 A relay is a kind of gate. Every relay has a number called the delay. The delay of a relay is usually 1.
 
@@ -81,5 +81,62 @@ Rule for depleting something (called the component):
 Saturating something is an activity.
 Rule for saturating something (called the component):
 	try silently switching on the component.
+		
+A bit-cell is a kind of gate.
+
+A bit-cell can be zeroed or oned. A bit-cell is usually zeroed.
+
+Bit-setting relates various things to various bit-cells.
+The verb to set (it sets, they set, it set, it is set) means the bit-setting relation.
+
+Clearing relates various things to various bit-cells.
+The verb to clear (it clears, they clear, it cleared, it is cleared) means the clearing relation.
+
+Before switching on something (called the switch):
+	if the switch sets something:
+		repeat with the controllee running through everything which is set by the switch:
+			try silently turning on the controllee with the switch.
+		
+Before switching on something (called the switch):
+	if the switch clears something:
+		repeat with the controllee running through everything which is cleared by the switch:
+			try silently turning off the controllee with the switch.
+			
+Instead of turning off a bit-cell (called the component) with something:
+	if the component is oned, try silently switching off the component;
+	now the component is zeroed.
+
+Instead of turning on a bit-cell (called the component) with something:
+	if the component is zeroed, try silently switching on the component;
+	now the component is oned.
+	
+Volume 4 - Switch Types
+
+A control is a kind of thing.
+
+Instead of switching on a control, do nothing.
+Instead of switching off a control, do nothing.
+
+A button is a kind of control. Every button has a number called the delay. The delay of a button is usually 1.
+
+Button-pushing is an action applying to one visible thing. Understand the command "push" as something new. Understand the command "press" as something new. Understand the command "hit" as something new. Understand "push [something]" or "press [something]" or "hit [something]" as button-pushing.
+
+Check button-pushing:
+	if the noun is not a button, say "You see no reason why [the noun] would respond to the pressure." instead.
+	
+Button-depleting something is an activity.
+Rule for button-depleting something (called the switch):
+	if the switch controls something:
+		repeat with the controllee running through everything which is controlled by the switch:
+			try silently turning off the controllee with the switch.
+	
+Carry out button-pushing:
+	try silently switching on the noun;
+	schedule button-depleting for the noun in (delay of the noun) turns.
+
+Report button-pushing:
+	say "You push [the noun]."
+	
+A switch is a kind of device. Understand "flip [a switch that is switched on]" or "throw [a switch that is switched on]" as switching off. Understand "flip [a switch that is switched off]" or "throw [a switch that is switched off]" as switching on. Understand "flip [a switch]" or "throw [a switch]" as switching on.
 
 Switch Control ends here.
